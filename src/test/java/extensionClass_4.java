@@ -8,7 +8,35 @@ import org.junit.Test;
 public class extensionClass_4 extends baseClass {
     @Test
     public void useBaseClass(){
-        System.out.println("From Extension/Inheritance Class calling Super or Base Class");
+        //This is to understand what is happening
+        System.out.println("Inside Extension/Inheritance Class calling a method from Super or Base Class");
         whoAmI();
+
+        //Below code to demonstrate a project need
+        iLearned();
+        System.out.println("2nd multiplication table");
+
+        iLearned();
+        System.out.println("3rd multiplication table");
+
+        iLearned();
+        System.out.println("4th multiplication table");
+
+        iLearned();
+        System.out.println("5th multiplication table");
+
+        iLearned();
+        System.out.println("6th multiplication table");
+
+        iLearned();
+        System.out.println("7th multiplication table");
+
+        iLearned();
+        System.out.println("8th multiplication table");
+
+        iLearned();
+        System.out.println("9th multiplication table");
     }
+
+
 }
