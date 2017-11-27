@@ -2,7 +2,7 @@
 import org.junit.Test;
 
 // All programs are called classes which are defined like below
-public class myFirstJavaProgram_1 {
+public class Test_myFirstJavaProgram_1 {
 
    /* This is my first java program.
     * This will print 'Hello World' as the output
