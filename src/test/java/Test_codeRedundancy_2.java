@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-public class codeRedundancy_2 {
+public class Test_codeRedundancy_2 {
     @Test
     public void iAmLearning(){
         System.out.print("I learned ");
