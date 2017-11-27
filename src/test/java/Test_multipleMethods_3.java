@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-public class multipleMethods_3 {
+public class Test_multipleMethods_3 {
     @Test
     public void mainMethod(){
         iLearned();
