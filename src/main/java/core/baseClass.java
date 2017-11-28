@@ -6,7 +6,7 @@ package core;
  */
 public class baseClass {
     public void whoAmI(){
-        System.out.println("I am in Super or Base Class");
+        System.out.println("baseClass : I am in Super or Base Class");
     }
 
     public void iLearned(){
