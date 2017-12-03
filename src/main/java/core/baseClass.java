@@ -10,6 +10,17 @@ public class baseClass {
     }
 
     public void iLearned(){
+        System.out.println();
+        System.out.println("In Asquared");
+        System.out.println("--------------");
+        System.out.print("I learned ");
+    }
+
+    //Overriding a method
+    public void iLearned(String institute){
+        System.out.println();
+        System.out.println("In " + institute);
+        System.out.println("--------------");
         System.out.print("I learned ");
     }
 }
