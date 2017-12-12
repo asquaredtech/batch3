@@ -37,7 +37,7 @@ public abstract class TestLib {
         }
     }
 
-    private boolean isElementPresent(By by) {
+    public boolean isElementPresent(By by) {
         try {
             driver.findElement(by);
             return true;
@@ -70,4 +70,11 @@ public abstract class TestLib {
         }
     }
 
+    /**
+     * Locating Input field by label
+     */
+    public static String getInputElementByLabel(String expectedLabel) {
+        String inputLocator = "//b[contains(text(),'%s')]/ancestor::td[1]/following-sibling::td/input";
+        return String.format(inputLocator, expectedLabel);
+    }
 }
