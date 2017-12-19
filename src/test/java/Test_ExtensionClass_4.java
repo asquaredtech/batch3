@@ -1,11 +1,11 @@
-import core.baseClass;
+import core.TestLib;
 import org.junit.Test;
 
 /*
     This class is extending Base Class
     Extending a class is called inheritance.
  */
-public class Test_ExtensionClass_4 extends baseClass { //Main class extends baseClass
+public class Test_ExtensionClass_4 extends TestLib { //Main class extends baseClass
     @Test
     public void useBaseClass(){
         //This is to understand what is happening
