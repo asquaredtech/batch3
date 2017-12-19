@@ -1,7 +1,7 @@
 import core.baseClass;
 import org.junit.Test;
 
-public class Test_WhileLoop extends baseClass {
+public class Test_WhileLoop extends TestLib {
     @Test
     public void testWhileLoop(){
         int i = 0;
