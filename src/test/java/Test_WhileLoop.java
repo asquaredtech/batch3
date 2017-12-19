@@ -1,4 +1,4 @@
-import core.baseClass;
+import core.TestLib;
 import org.junit.Test;
 
 public class Test_WhileLoop extends TestLib {
