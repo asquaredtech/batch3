@@ -77,4 +77,31 @@ public abstract class TestLib {
         String inputLocator = "//b[contains(text(),'%s')]/ancestor::td[1]/following-sibling::td/input";
         return String.format(inputLocator, expectedLabel);
     }
+
+    /**
+     * Locating Input field by label
+     */
+    public static String getInputElementByName(String elementName) {
+        String inputLocator = "//input[@name='%s']))";
+        return String.format(inputLocator, elementName);
+    }
+
+ public void whoAmI(){
+        System.out.println("baseClass : I am in Super or Base Class");
+    }
+
+    public void iLearned(){
+        System.out.println();
+        System.out.println("In Asquared");
+        System.out.println("--------------");
+        System.out.print("I learned ");
+    }
+
+    //Overriding a method : Same name but the diffeernce is passing a parameter
+    public void iLearned(String institute){
+        System.out.println();
+        System.out.println("In " + institute);
+        System.out.println("--------------");
+        System.out.print("I learned ");
+    }
 }
